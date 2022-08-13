@@ -1,4 +1,95 @@
-/* Rules for fonts
+/* rules for fonts
 font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
+
+/* colors */
+:root {
+    --primary-background-color:#FFFFFF;
+    --secondary-background-color:#2F303A;
+    --tertiary-background-color:#F5F4FA;
+    --accent-color:#2196F3;
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+    --tertiary-text-color:#FFFFFF;
+    --logo-color:#000000;
+    --cards-border-color:#EEEEEE;
+    --unknown-color:#ECECEC;
+}
+
+/* global */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color)
+    background-color: var(--primary-background-color);
+}
+
+/* main */
+
+/* header */
+
+/* logo */
+
+.logo {
+    text-decoration: none;
+    color: var(--logo-color);
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo > span {
+    color: var(--accent-color);
+}
+
+/* nav */
+
+.nav-list {
+    list-style: none;
+}
+
+.nav {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav .link {
+    text-decoration: none;
+}
+
+.nav .link:visited {
+    color: var(--primary-text-color);
+}
+
+.nav .link:hover,
+.nav .link:focus  {
+    color: var(--accent-color);
+}
+
+/* contacts */
+
+.contacts {
+    list-style: none;
+}
+
+.contacts .link {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contacts .link:visited {
+    color: var(--secondary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
