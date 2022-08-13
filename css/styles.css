@@ -53,7 +53,6 @@ body {
 }
 
 .nav {
-    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 114%;
@@ -127,7 +126,6 @@ body {
 }
 
 .benefits .title {
-    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 114%;
@@ -146,7 +144,6 @@ body {
 /* work */
 
 .work-title {
-    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 144%;
@@ -161,7 +158,6 @@ body {
 /* team */
 
 .team-title {
-    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 144%;
@@ -174,7 +170,6 @@ body {
 }
 
 .team .title {
-    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 119%;
@@ -222,7 +217,6 @@ body {
 }
 
 .filter-list .button {
-    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 162%;
@@ -241,7 +235,6 @@ body {
 }
 
 .portfolio .title {
-    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 200%;
