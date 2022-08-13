@@ -208,6 +208,11 @@ body {
   color: var(--secondary-text-color-transparency);
 }
 
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
+
 /* portfolio */
 
 .filter-list {
@@ -222,7 +227,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-.filter-list .button:hover {
+.filter-list .button:hover,
+.filter-list .button:focus {
   color: var(--tertiary-text-color);
   background-color: var(--accent-color);
   cursor: pointer;
