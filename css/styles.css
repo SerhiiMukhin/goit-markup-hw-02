@@ -42,7 +42,7 @@ body {
   color: var(--logo-color);
 }
 
-.logo span {
+.logo-accent {
   color: var(--accent-color);
 }
 
