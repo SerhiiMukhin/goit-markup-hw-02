@@ -1,9 +1,5 @@
-/* rules for fonts
-font-family: 'Montserrat', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
 /* colors */
+
 :root {
   --primary-background-color: #ffffff;
   --secondary-background-color: #2f303a;
@@ -19,6 +15,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 /* global */
+
 body {
   font-family: 'Roboto', 'Arial', 'Tahoma', sans-serif;
   color: var(--primary-text-color);
