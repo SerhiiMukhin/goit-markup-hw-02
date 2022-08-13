@@ -214,3 +214,43 @@ body {
     line-height: 171%;
     letter-spacing: 0.03em;
 }
+
+/* portfolio */
+
+.filter-list {
+    list-style: none;
+}
+
+.filter-list .button {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.filter-list .button:hover {
+    color:var(--tertiary-text-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.portfolio-list {
+    list-style: none;
+}
+
+.portfolio .title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: 0.06em;
+}
+
+.portfolio .text {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 188%;
+    letter-spacing: 0.03em;
+}
