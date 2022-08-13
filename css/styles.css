@@ -25,6 +25,8 @@ body {
     background-color: var(--primary-background-color);
 }
 
+/* index */
+
 /* main */
 
 /* header */
@@ -62,7 +64,8 @@ body {
     text-decoration: none;
 }
 
-.nav .link:visited {
+.nav .link:visited,
+.nav .link:active {
     color: var(--primary-text-color);
 }
 
