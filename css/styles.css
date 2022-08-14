@@ -34,7 +34,7 @@ body {
 	text-decoration: none;
 	font-family: "Raleway", sans-serif;
 	font-size: 26px;
-	line-height: 119%;
+	line-height: 1.19;
 	letter-spacing: 0.03em;
 	color: var(--logo-color);
 }
@@ -52,7 +52,7 @@ body {
 .nav {
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 114%;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
 
@@ -60,9 +60,13 @@ body {
 	text-decoration: none;
 }
 
-.nav .link:visited,
-.nav .link:active {
+.nav .link {
 	color: var(--primary-text-color);
+}
+
+.link-current {
+	text-decoration: none;
+	color: var(--accent-color);
 }
 
 .nav .link:hover,
@@ -79,7 +83,7 @@ body {
 .contacts .link {
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 114%;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 	text-decoration: none;
 	color: var(--secondary-text-color);
@@ -96,20 +100,25 @@ body {
 
 /* solutions */
 
-.section-solutions .title {
+.section-hero {
+	background-color: var(--secondary-background-color);
+}
+
+.section-hero .title {
 	font-weight: 900;
 	font-size: 44px;
-	line-height: 136%;
+	line-height: 1.36;
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--tertiary-text-color);
 }
 
-.section-solutions .button {
+.section-hero .button {
+	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 188%;
+	line-height: 1.88;
 	letter-spacing: 0.06em;
 	color: var(--tertiary-text-color);
 	background-color: var(--accent-color);
@@ -125,14 +134,14 @@ body {
 .benefits .title {
 	font-weight: 700;
 	font-size: 14px;
-	line-height: 114%;
+	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
 
 .benefits .text {
 	font-size: 14px;
-	line-height: 171%;
+	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color);
 }
@@ -142,7 +151,7 @@ body {
 .work-title {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 117%;
+	line-height: 1.17;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
@@ -156,7 +165,7 @@ body {
 .team-title {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 117%;
+	line-height: 1.17;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
@@ -168,14 +177,13 @@ body {
 .team .title {
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 119%;
+	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
 
 .team .text {
-	font-size: 16px;
-	line-height: 119%;
+	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color);
@@ -183,10 +191,14 @@ body {
 
 /* footer */
 
+.footer {
+	background-color: var(--secondary-background-color);
+}
+
 .footer .location {
 	font-style: normal;
 	font-size: 14px;
-	line-height: 171%;
+	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--tertiary-text-color);
 }
@@ -198,7 +210,7 @@ body {
 .footer .link {
 	font-style: normal;
 	font-size: 14px;
-	line-height: 171%;
+	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color-transparency);
 }
@@ -215,9 +227,10 @@ body {
 }
 
 .filter-list .button {
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 162%;
+	line-height: 1.62;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
@@ -236,13 +249,12 @@ body {
 .portfolio .title {
 	font-weight: 700;
 	font-size: 18px;
-	line-height: 200%;
+	line-height: 2;
 	letter-spacing: 0.06em;
 }
 
 .portfolio .text {
-	font-size: 16px;
-	line-height: 188%;
+	line-height: 1.88;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color);
 }
