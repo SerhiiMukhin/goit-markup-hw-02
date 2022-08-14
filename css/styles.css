@@ -64,7 +64,7 @@ body {
 	color: var(--primary-text-color);
 }
 
-.link-current {
+.nav .link-current {
 	text-decoration: none;
 	color: var(--accent-color);
 }
