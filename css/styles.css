@@ -8,7 +8,7 @@
 	--primary-text-color: #212121;
 	--secondary-text-color: #757575;
 	--tertiary-text-color: #ffffff;
-	--secondary-text-color-transparency: #ffffff99;
+	--secondary-text-color-transparency: rgba(255, 255, 255, 0.6);
 	--logo-color: #000000;
 	--cards-border-color: #eeeeee;
 	--unknown-color: #ececec;
@@ -195,6 +195,10 @@ body {
 	background-color: var(--secondary-background-color);
 }
 
+.footer .logo {
+	color: var(--tertiary-text-color);
+}
+
 .footer .location {
 	font-style: normal;
 	font-size: 14px;
@@ -208,6 +212,7 @@ body {
 }
 
 .footer .link {
+	text-decoration: none;
 	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
