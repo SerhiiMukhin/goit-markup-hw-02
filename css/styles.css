@@ -1,6 +1,7 @@
 /* colors */
 
 :root {
+	/* Colors */
 	--primary-background-color: #ffffff;
 	--secondary-background-color: #2f303a;
 	--tertiary-background-color: #f5f4fa;
@@ -14,10 +15,12 @@
 	--unknown-color: #ececec;
 }
 
+
 /* global */
 
 body {
 	font-family: "Roboto", "Arial", "Tahoma", sans-serif;
+	letter-spacing: 0.03em;
 	color: var(--primary-text-color);
 	background-color: var(--primary-background-color);
 }
@@ -35,7 +38,6 @@ body {
 	font-family: "Raleway", sans-serif;
 	font-size: 26px;
 	line-height: 1.19;
-	letter-spacing: 0.03em;
 	color: var(--logo-color);
 }
 
@@ -51,7 +53,6 @@ body {
 
 .nav {
 	font-weight: 500;
-	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
